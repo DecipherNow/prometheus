@@ -93,6 +93,8 @@ github.com/beorn7/perks/quantile
 # github.com/cespare/xxhash/v2 v2.1.1
 ## explicit
 github.com/cespare/xxhash/v2
+# github.com/cncf/udpa/go v0.0.0-20200629203442-efcf912fb354
+github.com/cncf/udpa/go/udpa/annotations
 # github.com/containerd/containerd v1.3.4
 ## explicit
 github.com/containerd/containerd/errdefs
@@ -139,6 +141,25 @@ github.com/docker/go-units
 # github.com/edsrzf/mmap-go v1.0.0
 ## explicit
 github.com/edsrzf/mmap-go
+# github.com/envoyproxy/go-control-plane v0.9.7
+## explicit
+github.com/envoyproxy/go-control-plane/envoy/annotations
+github.com/envoyproxy/go-control-plane/envoy/api/v2
+github.com/envoyproxy/go-control-plane/envoy/api/v2/auth
+github.com/envoyproxy/go-control-plane/envoy/api/v2/cluster
+github.com/envoyproxy/go-control-plane/envoy/api/v2/core
+github.com/envoyproxy/go-control-plane/envoy/api/v2/endpoint
+github.com/envoyproxy/go-control-plane/envoy/api/v2/listener
+github.com/envoyproxy/go-control-plane/envoy/api/v2/route
+github.com/envoyproxy/go-control-plane/envoy/config/filter/accesslog/v2
+github.com/envoyproxy/go-control-plane/envoy/config/listener/v2
+github.com/envoyproxy/go-control-plane/envoy/service/discovery/v2
+github.com/envoyproxy/go-control-plane/envoy/type
+github.com/envoyproxy/go-control-plane/envoy/type/matcher
+github.com/envoyproxy/go-control-plane/envoy/type/metadata/v2
+github.com/envoyproxy/go-control-plane/envoy/type/tracing/v2
+# github.com/envoyproxy/protoc-gen-validate v0.1.0
+github.com/envoyproxy/protoc-gen-validate/validate
 # github.com/evanphx/json-patch v4.9.0+incompatible
 github.com/evanphx/json-patch
 # github.com/fatih/color v1.9.0
@@ -220,8 +241,10 @@ github.com/golang/protobuf/protoc-gen-go/plugin
 github.com/golang/protobuf/ptypes
 github.com/golang/protobuf/ptypes/any
 github.com/golang/protobuf/ptypes/duration
+github.com/golang/protobuf/ptypes/empty
 github.com/golang/protobuf/ptypes/struct
 github.com/golang/protobuf/ptypes/timestamp
+github.com/golang/protobuf/ptypes/wrappers
 # github.com/golang/snappy v0.0.2
 ## explicit
 github.com/golang/snappy
@@ -568,6 +591,7 @@ google.golang.org/appengine/urlfetch
 google.golang.org/genproto/googleapis/api/annotations
 google.golang.org/genproto/googleapis/rpc/status
 # google.golang.org/grpc v1.32.0
+## explicit
 google.golang.org/grpc
 google.golang.org/grpc/attributes
 google.golang.org/grpc/backoff
@@ -608,13 +632,13 @@ google.golang.org/grpc/serviceconfig
 google.golang.org/grpc/stats
 google.golang.org/grpc/status
 google.golang.org/grpc/tap
-# google.golang.org/protobuf v1.24.0
+# google.golang.org/protobuf v1.25.0
+## explicit
 google.golang.org/protobuf/encoding/protojson
 google.golang.org/protobuf/encoding/prototext
 google.golang.org/protobuf/encoding/protowire
 google.golang.org/protobuf/internal/descfmt
 google.golang.org/protobuf/internal/descopts
-google.golang.org/protobuf/internal/detectknown
 google.golang.org/protobuf/internal/detrand
 google.golang.org/protobuf/internal/encoding/defval
 google.golang.org/protobuf/internal/encoding/json
@@ -622,12 +646,11 @@ google.golang.org/protobuf/internal/encoding/messageset
 google.golang.org/protobuf/internal/encoding/tag
 google.golang.org/protobuf/internal/encoding/text
 google.golang.org/protobuf/internal/errors
-google.golang.org/protobuf/internal/fieldnum
 google.golang.org/protobuf/internal/fieldsort
 google.golang.org/protobuf/internal/filedesc
 google.golang.org/protobuf/internal/filetype
 google.golang.org/protobuf/internal/flags
-google.golang.org/protobuf/internal/genname
+google.golang.org/protobuf/internal/genid
 google.golang.org/protobuf/internal/impl
 google.golang.org/protobuf/internal/mapsort
 google.golang.org/protobuf/internal/pragma
@@ -643,8 +666,10 @@ google.golang.org/protobuf/runtime/protoimpl
 google.golang.org/protobuf/types/descriptorpb
 google.golang.org/protobuf/types/known/anypb
 google.golang.org/protobuf/types/known/durationpb
+google.golang.org/protobuf/types/known/emptypb
 google.golang.org/protobuf/types/known/structpb
 google.golang.org/protobuf/types/known/timestamppb
+google.golang.org/protobuf/types/known/wrapperspb
 google.golang.org/protobuf/types/pluginpb
 # gopkg.in/alecthomas/kingpin.v2 v2.2.6
 ## explicit
